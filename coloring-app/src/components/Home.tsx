@@ -31,6 +31,27 @@ const Home: React.FC = () => {
   const colors28 = ["aa998f", "d1be9c", "7d4f50", "f9eae1", "cc8b86"];
   const colors29 = ["253237", "5c6b73", "9db4c0", "c2dfe3", "e0fbfc"];
   const colors30 = ["DC84F3", "E9A8F2", "F3CCF3", "F3CCF3", "FEFAE0"];
+  const colors31 = ["508D69", "9ADE7B", "EEF296", "FF8F8F", "FFC7C7"];
+  const colors32 = ["00A9FF", "89CFF3", "AEDEFC", "A0E9FF", "CDF5FD"];
+  const colors33 = ["FBA1B7", "FFD1DA", "FFF0F5", "FFDBAA", "FFD6A5"];
+  const colors34 = ["AAC8A7", "C3EDC0", "9BE8D8", "FDFFAE", "CBFFA9"];
+  const colors35 = ["A94438", "E4DEBE", "D24545", "E6BAA3", "E4DEBE"];
+  const colors36 = ["331D2C", "3F2E3E", "A78295", "EFE1D1", "FAF0D7"];
+  const colors37 = ["6C22A6", "7B66FF", "5FBDFF", "96EFFF", "C5FFF8"];
+  const colors38 = ["45474B", "495E57", "F4CE14", "F5F7F8", "F6F4EB"];
+  const colors39 = ["ffd6ff", "e7c6ff", "c8b6ff", "b8c0ff", "bbd0ff"];
+  const colors40 = ["800016", "a0001c", "c00021", "ff002b", "d63230"];
+  const colors41 = ["b1740f", "ffd07b", "fdb833", "296eb4", "1789fc"];
+  const colors42 = ["6f1d1b", "bb9457", "432818", "99582a", "ffe6a7"];
+  const colors43 = ["386641", "6a994e", "a7c957", "f2e8cf", "778da9"];
+  const colors44 = ["5e6472", "aed9e0", "b8f2e6", "faf3dd", "ffa69e"];
+  const colors45 = ["a3a380", "d6ce93", "efebce", "d8a48f", "bb8588"];
+  const colors46 = ["432534", "c44900", "efd6ac", "183a37", "04151f"];
+  const colors47 = ["333533", "202020", "ffd100", "ffee32", "d6d6d6"];
+  const colors48 = ["585123", "eec170", "f2a65a", "f58549", "772f1a"];
+  const colors49 = ["ff6700", "ebebeb", "c0c0c0", "3a6ea5", "004e98"];
+  const colors50 = ["d8e2dc", "ffffff", "ffcad4", "f4acb7", "9d8189"];
+  const colors51 = ["05668d", "427aa1", "ebf2fa", "679436", "a5be00"];
 
   return (
     <div className="ColorPalette" style={{ padding: "20px" }}>
@@ -64,6 +85,27 @@ const Home: React.FC = () => {
       <ColorPalette colors={colors28} />
       <ColorPalette colors={colors29} />
       <ColorPalette colors={colors30} />
+      <ColorPalette colors={colors31} />
+      <ColorPalette colors={colors32} />
+      <ColorPalette colors={colors33} />
+      <ColorPalette colors={colors34} />
+      <ColorPalette colors={colors35} />
+      <ColorPalette colors={colors36} />
+      <ColorPalette colors={colors37} />
+      <ColorPalette colors={colors38} />
+      <ColorPalette colors={colors39} />
+      <ColorPalette colors={colors40} />
+      <ColorPalette colors={colors41} />
+      <ColorPalette colors={colors42} />
+      <ColorPalette colors={colors43} />
+      <ColorPalette colors={colors44} />
+      <ColorPalette colors={colors45} />
+      <ColorPalette colors={colors46} />
+      <ColorPalette colors={colors47} />
+      <ColorPalette colors={colors48} />
+      <ColorPalette colors={colors49} />
+      <ColorPalette colors={colors50} />
+      <ColorPalette colors={colors51} />
     </div>
   );
 };

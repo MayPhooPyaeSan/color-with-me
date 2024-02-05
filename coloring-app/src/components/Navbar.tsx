@@ -14,9 +14,14 @@ const Navbar = () => {
         Welcome to Our Colorful World!
       </h1>
       <h3
-        style={{ textAlign: "center", marginTop: "2rem", fontSize: "1.5rem" }}
+        style={{
+          textAlign: "center",
+          marginTop: "2rem",
+          fontSize: "1.5rem",
+          fontFamily: "'Josefin Slab', serif",
+        }}
       >
-        Let the colors inspire you 🎨
+        Let the colors inspire you. 🎨
       </h3>
     </div>
   );
