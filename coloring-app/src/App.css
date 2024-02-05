@@ -1,7 +1,7 @@
 .color-container {
   width: 350px;
   font-family: sans-serif;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .palette-wrapper {
@@ -15,7 +15,7 @@
 }
 
 .color-container .color {
-  height: 150px;
+  height: 130px;
 }
 
 .color {
@@ -83,6 +83,59 @@
     flex: 1 1 calc(50% - 20px);
   }
   .ColorPalette {
-    gap: 10px;
+    gap: 13px;
   }
+}
+
+.each-fade {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+/* slideshow.css */
+/* ... other styles ... */
+
+.slide-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.slide-container.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slide-container.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #333;
 }
