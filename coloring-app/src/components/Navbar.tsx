@@ -19,6 +19,7 @@ const Navbar = () => {
           marginTop: "2rem",
           fontSize: "1.5rem",
           fontFamily: "'Josefin Slab', serif",
+          opacity: "0.7",
         }}
       >
         Let the colors inspire you. 🎨
